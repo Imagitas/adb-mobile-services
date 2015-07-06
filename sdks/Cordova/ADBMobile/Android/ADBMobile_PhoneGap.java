@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.io.InputStream;
-import java.io.IOException
+import java.io.IOException;
 
 /*************************************************************************
  *
