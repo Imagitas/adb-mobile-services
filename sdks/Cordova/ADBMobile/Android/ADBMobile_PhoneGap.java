@@ -675,10 +675,11 @@ public class ADBMobile_PhoneGap extends CordovaPlugin {
 
         //override the ADBMobileConfig.json file
         //TODO - read this in through a param in user's config.xml
-        final String configPath = "www/res/js/ADBMobileConfig.json";
-        InputStream configInput = this.cordova.getActivity().getApplicationContext()
-                .getAssets().open(configPath);
-        Config.overrideConfigStream(configInput);
+        try {
+            final String configPath = "www/res/js/ADBMobileConfig.json";
+            InputStream configInput = this.cordova.getActivity().getApplicationContext()
+                    .getAssets().open(configPath);
+            Config.overrideConfigStream(configInput);
         } catch (IOException e) {
             e.printStackTrace();
         }
