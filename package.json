@@ -1,6 +1,6 @@
 {
   "name": "adb-mobile-services",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Adobe Mobile Services with custom ADBMobileConfig.json override",
   "cordova": {
     "id": "adb-mobile-services",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/p1ng/adb-mobile-services.git"
+    "url": "https://github.com/Imagitas/adb-mobile-services.git"
   },
   "keywords": [
     "cordova",
