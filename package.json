@@ -1,6 +1,6 @@
 {
   "name": "adb-mobile-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Adobe Mobile Services with custom ADBMobileConfig.json override",
   "cordova": {
     "id": "adb-mobile-services",
