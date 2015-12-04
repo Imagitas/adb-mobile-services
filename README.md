@@ -1,7 +1,9 @@
-adb-mobile-services
-===============
+#adb-mobile-services
 
-integrate Adobe Mobile Analytics with cordova projects  
+> Integrate Adobe Mobile Analytics with Cordova and Phonegap Build projects 
 
+##Installation
+`cordova plugin add adb-mobile-services --save`  
 
-Make sure you have ADBMobileConfig.json in your cordova project:  www/res/js/ADBMobileConfig.json
+##Configuration
+Copy your unique ADBMobileConfig.json from Adobe into your cordova www/res/js dir (ex. `www/res/js/ADBMobileConfig.json`).
