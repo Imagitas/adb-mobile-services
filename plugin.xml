@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         id="com.imagitas.cordova.plugins.ADBMobile"
-        version="1.0.3">
+        version="1.0.4">
     <name>ADBMobile</name>
     <description>Adobe Mobile Services Plugin</description>
 
@@ -37,6 +38,6 @@
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
         </config-file>
         <source-file src="sdks/Cordova/ADBMobile/Android/ADBMobile_PhoneGap.java" target-dir="src/com/adobe/"/>
-        <source-file src="sdks/Android/AdobeMobileLibrary/adobeMobileLibrary-4.5.1.jar" target-dir="libs"/>
+        <source-file src="sdks/Android/AdobeMobileLibrary/adobeMobileLibrary-4.8.1.jar" target-dir="libs"/>
     </platform>
 </plugin>

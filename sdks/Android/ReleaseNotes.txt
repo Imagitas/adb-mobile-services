@@ -5,6 +5,35 @@ Included are notes from the latest major revision to current.
 For full SDK documentation, please visit:
 https://marketing.adobe.com/resources/help/en_US/mobile/android/
 
+4.8.1 (4 Nov, 2015)
+- Visitor ID Service - added support to AAM for customer IDs and authentication state
+- Analytics - fixed an issue introduced in 4.8.0 where last known hit timestamp was not updated.
+
+4.8.0 (2 Nov, 2015)
+- Visitor ID Service - added support to send in an authentication state when syncing Visitor ID Service identifiers
+- Audience Manager - added support for automatic forwarding of Analytics data to Audience Manager
+- Analytics - fixed an issue where backdated hits would contain current device information
+- Fixed a compile error with Google Play Services 8.1 when ProGuard is enabled
+
+4.7.0 (skipped to match cadence with iOS)
+
+4.6.1 (24 Sept, 2015)
+- New Feature - Android 6.0(Marshmallow) compatibility
+
+4.6.0 (16 Sept, 2015)
+- New Feature - support for push messaging
+- New Feature - support for 3rd party callbacks
+- Acquisition - enhanced functionality added for acquisition
+- Analytics - fixed a bug preventing an aid from being re-generated if Visitor ID Service was enabled, then later disabled
+
+4.5.4 (20 Aug, 2015)
+- Configuration - made a small change to configuration loading to support better integration with PhoneGap
+
+4.5.3 (16 July, 2015)
+- Analytics - fixed a bug where unsuccessful close of HTTP connection could result in failure of sending non-ssl Analytics requests in older Android Versions
+
+4.5.2 (26 June, 2015)
+- Audience Manager - fixed a bug where lack of destination urls in AAM response could result in no visitor profile being available locally
 
 4.5.1 (18 June, 2015)
 - In App Messaging - fixed a bug where messages were incorrectly triggered if all messages were disabled at once
